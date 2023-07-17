@@ -61,6 +61,8 @@ function start()
     define_and_internal_div( "Top_Right_Div",    "SnackTopRight" );
     define_and_internal_div( "Bottom_Right_Div", "SnackBottomRight" );
     define_and_internal_div( "Bottom_Left_Div",  "SnackBottomLeft" );
+
+    start_snacks_on_page();
 }
 
 
