@@ -7,7 +7,7 @@ function start()
     //
     // Warning: Using these effects, DO NOT USE "Position : relative",
     //
-    function ds_02_define_and_internal_div( ID, Animate )
+    function define_and_internal_div( ID, Animate )
     {
         let arr = [              "ID : " + ID,
                            "ParentID : Main_Div",
@@ -57,7 +57,12 @@ function start()
 
     // The Inner Divs, inside the Main Div
     //
-    define_and_internal_div( "Top_Left_Div",     "SnackTopLeft"     );
+    define_and_internal_div( "Top_Left_Div",     "SnackTopLeft"   );
+    define_and_internal_div( "Top_Right_Div",    "SnackTopRight" );
+    define_and_internal_div( "Bottom_Right_Div", "SnackBottomRight" );
+    define_and_internal_div( "Bottom_Left_Div",  "SnackBottomLeft" );
+
+    start_snacks_on_page();
 }
 
 
