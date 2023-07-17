@@ -58,7 +58,8 @@ function start()
     // The Inner Divs, inside the Main Div
     //
     define_and_internal_div( "Top_Left_Div",     "SnackTopLeft"   );
-    define_and_internal_div( "Top_Right_Div",    "SnackRightLeft" );
+    define_and_internal_div( "Top_Right_Div",    "SnackTopRight" );
+    define_and_internal_div( "Bottom_Right_Div", "SnackBottomRight" );
 }
 
 
